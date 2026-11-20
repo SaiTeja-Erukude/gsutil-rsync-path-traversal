@@ -116,6 +116,7 @@ Disclosure was coordinated through VulnCheck.
 ## References
 
 - [gsutil repository](https://github.com/GoogleCloudPlatform/gsutil)
+- [Proposed fix PR #1951](https://github.com/GoogleCloudPlatform/gsutil/pull/1951)
 - [rsync source at gsutil 5.38](https://github.com/GoogleCloudPlatform/gsutil/blob/v5.38/gslib/commands/rsync.py)
 - [gsutil documentation](https://docs.cloud.google.com/storage/docs/gsutil)
 - [CWE-22: Improper Limitation of a Pathname to a Restricted Directory](https://cwe.mitre.org/data/definitions/22.html)
