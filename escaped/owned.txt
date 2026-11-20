@@ -1,0 +1,1 @@
+gsutil rsync traversal marker

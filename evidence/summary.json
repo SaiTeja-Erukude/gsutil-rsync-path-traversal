@@ -1,0 +1,21 @@
+{
+  "checks": {
+    "destination_resolves_outside_sync_root": true,
+    "download_sink_wrote_marker_outside_sync_root": true,
+    "object_name_with_dotdot_accepted": true,
+    "rsync_passed_escaped_path_to_performcopy": true
+  },
+  "evidence_files": {
+    "escaped_file_content": "D:\\Projects\\Vuln PoCs\\gsutil-rsync-traversal\\evidence\\escaped-file-content.txt"
+  },
+  "malicious_object_name": "x/../../escaped/owned.txt",
+  "package": {
+    "distribution": "gsutil",
+    "version": "5.38"
+  },
+  "raw_destination": "D:\\Projects\\Vuln PoCs\\gsutil-rsync-traversal\\sync-root\\x\\..\\..\\escaped\\owned.txt",
+  "resolved_destination": "D:\\Projects\\Vuln PoCs\\gsutil-rsync-traversal\\escaped\\owned.txt",
+  "success": true,
+  "sync_root": "D:\\Projects\\Vuln PoCs\\gsutil-rsync-traversal\\sync-root",
+  "written_content": "gsutil rsync traversal marker\n"
+}
