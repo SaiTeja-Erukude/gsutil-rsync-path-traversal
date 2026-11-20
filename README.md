@@ -1,10 +1,18 @@
 # gsutil `rsync -r` Path Traversal
 
+**Severity:** High, CVSS 3.1 **8.1**
+
+**Vector:** `CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H`
+
 **Affected versions:** `<= 5.38`
 
-**Component:** Recursive cloud-to-local synchronization in `gslib.commands.rsync`
+**Component:** `gslib.commands.rsync`
 
 **CWE:** CWE-22 (Improper Limitation of a Pathname to a Restricted Directory)
+
+**Discovered and reported by:** Sai Teja Erukude
+
+---
 
 ## Summary
 
